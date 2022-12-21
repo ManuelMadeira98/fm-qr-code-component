@@ -1,0 +1,33 @@
+main {
+    padding: 1.5rem;
+    max-width: 375px;
+}
+
+.qr-card {
+    --content-padding: 1.1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--content-padding);
+    text-align: center;
+    
+    background-color: var(--clr-neutral-100);
+    padding: var(--content-padding);
+    border-radius: 1em;
+
+    img {
+        border-radius: 1em;
+    }
+
+    &--title {
+        color: var(--clr-neutral-900);
+        padding-top: 0.5rem;
+    }
+
+    &--description {
+        color: var(--clr-neutral-500);
+        padding-bottom: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.2;
+    }
+}

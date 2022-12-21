@@ -4,7 +4,7 @@ main {
 }
 
 .qr-card {
-    --content-padding: 1.1rem;
+    --content-padding: 1.25rem;
 
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ main {
     border-radius: 1.2em;
 
     img {
-        border-radius: 1.2em;
+        border-radius: 1em;
     }
 
     &--title {

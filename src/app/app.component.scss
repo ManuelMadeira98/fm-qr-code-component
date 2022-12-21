@@ -12,22 +12,23 @@ main {
     text-align: center;
     
     background-color: var(--clr-neutral-100);
+    box-shadow: 0px 2px 50px var(--clr-neutral-400);
     padding: var(--content-padding);
-    border-radius: 1em;
+    border-radius: 1.2em;
 
     img {
-        border-radius: 1em;
+        border-radius: 1.2em;
     }
 
     &--title {
         color: var(--clr-neutral-900);
-        padding-top: 0.5rem;
+        padding-top: 0.25rem;
+        font-size: 1.4rem;
     }
 
     &--description {
         color: var(--clr-neutral-500);
-        padding-bottom: 1.75rem;
-        font-size: 1.05rem;
+        padding-bottom: 1.5rem;
         line-height: 1.2;
     }
 }
